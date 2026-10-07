@@ -1,0 +1,216 @@
+{
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.ipynb": "jupyter-notebook",
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "workbench.startupEditor": "none",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.wordWrap": "on",
+  "yaml.schemas": {
+    "file:///c%3A/Users/Alfie/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "file:///c%3A/Users/Alfie/.vscode/extensions/continue.continue-2.0.0-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///home/bazzite/.var/app/com.visualstudio.code/data/vscode/extensions/continue.continue-2.0.0-linux-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "git.confirmSync": false,
+  "notebook.output.scrolling": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "jupyter.askForKernelRestart": false,
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petType": "dog",
+  "vscode-pets.petSize": "small",
+  "explorer.confirmPasteNative": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "git.autofetch": true,
+  "githubPullRequests.pullBranch": "never",
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "scm.inputFontSize": 12,
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "editor.tabCompletion": "on",
+  "docker.extension.enableComposeLanguageServer": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "window.zoomLevel": -1.2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    }
+  ],
+  "latex-workshop.latex.autoBuild.run": "never",
+  "files.associations": {
+    "*.css": "css",
+    "*.js": "javascript"
+  },
+  "terminal.integrated.automationProfile.linux": {},
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "host-spawn",
+      "args": ["bash"]
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "chat.tools.terminal.autoApprove": {
+    "mv \"NunitoSans-Bold.woff2\" \"Nunito Sans Std Bold.woff2\"": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "mv": true,
+    "pdflatex": true,
+    "./build.sh": true,
+    "rm": true,
+    "/dev/null": true,
+    "true": true,
+    "cp": true,
+    "latexmk": true,
+    "git add": true,
+    "git commit": true,
+    "git push": true,
+    "git fetch": true,
+    "git checkout": true,
+    "git commit -m \"Clean up template for British English and ease of use\n\n- Make workflow filename generation generic for any repository\n- Remove personal references from release notes\n- Convert 'License' to 'Licence' in documentation\n- Remove GHCR_FIX.md (workflow now handles auth properly)\n- Simplify README redaction example (builds both by default)\"": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "git merge": true,
+    "git commit -m \"Separate template and personal workflows\n\nTemplate repository (this one):\n- Simple test-only workflow that builds CV without publishing\n- No GHCR push, no releases, no GitHub Pages deployment\n- Just tests that the template compiles correctly\n\nPersonal repositories:\n- Full workflow with container building, releases, and Pages\n- Users replace publish-cv.yml with publish-cv-personal.yml  \n- Updated SETUP.md with clear instructions for both use cases\n\nThis fixes the GHCR 403 errors on template repo since it no longer tries to publish anything.\"": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "pdftotext": true,
+    "git remote": true
+  },
+  "redhat.telemetry.enabled": false,
+  "git.ignoreRebaseWarning": true,
+  "editor.accessibilitySupport": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "chat.tools.urls.autoApprove": {
+    "https://code.visualstudio.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://github.com/payloadcms/payload/tree/main/templates/blank/src/app/(payload)": {
+      "approveRequest": false,
+      "approveResponse": true
+    },
+    "https://payloadcms.com": {
+      "approveRequest": false,
+      "approveResponse": true
+    },
+    "https://raw.githubusercontent.com/payloadcms/payload/main/templates/blank/src/payload.config.ts": {
+      "approveRequest": false,
+      "approveResponse": true
+    },
+    "https://opennext.js.org": {
+      "approveRequest": false,
+      "approveResponse": true
+    },
+    "https://gsap.com": true,
+    "https://api.github.com": {
+      "approveRequest": false,
+      "approveResponse": true
+    },
+    "https://raw.githubusercontent.com": {
+      "approveRequest": false,
+      "approveResponse": true
+    }
+  },
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "editor.fontSize": 14,
+  "chat.fontSize": 12,
+  "chat.editor.fontSize": 12,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "github.copilot.chat.switchAgent.enabled": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "editor.largeFileOptimizations": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "notebook.lineNumbers": "on",
+  "workbench.panel.defaultLocation": "right",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ],
+  "mermaidChart.aiSkills.promptOnDetect": false,
+  "mermaidChart.aiSkills.enabled": false,
+  "mermaid.vscode.aiExportName": false,
+  "mermaidChart.showGenerateDiagramCodeLens": false
+}
